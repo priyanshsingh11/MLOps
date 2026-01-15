@@ -38,4 +38,4 @@ docker run -d -p 8080:8080 entpriyansh/mycalapp:latest
 ## Push to Docker Hub:
 
 1. docker login  
-2. docker push entbappy/mycalapp:latest     
+2. docker push entpriyansh/mycalapp:latest     
