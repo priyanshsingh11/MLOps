@@ -29,7 +29,7 @@ docker rmi $(docker images -q)              # Remove all images from this machin
 
 docker build -t entpriyansh/mycalapp:latest .
 
-docker run -p 8080:8080 entpriyansh/mycalapp:latest
+docker run -p 6969:8080 entpriyansh/mycalapp:latest
 
 docker run -d -p 8080:8080 entpriyansh/mycalapp:latest 
 
