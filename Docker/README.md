@@ -27,11 +27,11 @@ docker rmi $(docker images -q)              # Remove all images from this machin
 
 ## Docker Custom image
 
-docker build -t entbappy/mycalapp:latest .
+docker build -t entpriyansh/mycalapp:latest .
 
-docker run -p 8080:8080 entbappy/mycalapp:latest
+docker run -p 8080:8080 entpriyansh/mycalapp:latest
 
-docker run -d -p 8080:8080 entbappy/mycalapp:latest 
+docker run -d -p 8080:8080 entpriyansh/mycalapp:latest 
 
 
 
