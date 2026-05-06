@@ -82,4 +82,8 @@ with Live(save_dvc_exp=True) as live:
     live.log_metric('precision', precision_score(y_test, y_test))
     live.log_metric('recall', recall_score(y_test, y_test))
 
+<<<<<<< HEAD
     live.log_params(params)
+=======
+    live.log_params(params)
+>>>>>>> 36226e11cc53547513d406b91a2bb807b6a7271b
