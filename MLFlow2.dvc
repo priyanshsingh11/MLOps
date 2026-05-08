@@ -1,0 +1,6 @@
+outs:
+- md5: b28cb827f186869b4d9ca080daf9d9c0.dir
+  size: 794706
+  nfiles: 317
+  hash: md5
+  path: MLFlow2
